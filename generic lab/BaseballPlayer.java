@@ -1,5 +1,3 @@
-package lab2;
-
 /**
 A baseball player
 */
