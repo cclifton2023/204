@@ -1,4 +1,3 @@
-package lab2;
 /**
    Describes any class whose objects can be measured.
 */
