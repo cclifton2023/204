@@ -1,4 +1,3 @@
-package lab2;
 /**
    Computes the average of a set of data values.
 */
