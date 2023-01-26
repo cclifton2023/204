@@ -1,5 +1,3 @@
-package lab2;
-
 public class DataSetGen <G extends Measurable>
 {
 	private double sum;
@@ -8,28 +6,28 @@ public class DataSetGen <G extends Measurable>
 	
 	public DataSetGen()
 	{
-		sum = 0;
+	    sum = 0;
 	    count = 0;
 	    maximum = null;
 	}
 	
 	public void add(G x)
 	{
-		sum = sum + x.getMeasure();
+	    sum = sum + x.getMeasure();
 	    if (count == 0 || maximum.getMeasure() < x.getMeasure())
 	    	maximum = x;
 	    count++;
 	}
 	public double getAverage()
 	{
-		if (count == 0) 
-			return 0;
+	    if (count == 0) 
+		return 0;
 	    else 
 	    	return sum / count;
 	}
 	public G getMaximum()
 	{ 
-		return maximum;
+	    return maximum;
 	}
 }
 
