@@ -10,3 +10,4 @@ public class ArraySum
 			return a[index] + sumOfArray(a, index-1);
 	}
 }
+ 
