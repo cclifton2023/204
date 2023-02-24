@@ -3,7 +3,7 @@ package assignment2;
 
 /**
 *MgmCompanyGui, Class representing the GUI for company information
-* @author khandan Monshi
+* @author khandan Monshi 
 */
 
 import java.text.NumberFormat;
